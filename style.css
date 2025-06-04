@@ -1,22 +1,70 @@
 body{
     background-color: #000;
-      font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    box-sizing: border-box;
 }
 
-nav{
-    background-color: #000;
+/* ПАНЕЛЬ НАВИГАЦИИ */
+
+@media(max-width: 768px){
+/*Стили, на устройствах с максимальной ширеной экрана 768 пикселей и меньше */ 
 }
+
+@media (max-width: 400px){
+.container-fluid{   width: 100vw;
+  margin: 25vw;}
+}
+
+
+.navbar-brand{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-fluid{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+   z-index:1;
+}
+
+.navbar-nav{
+  display:flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vw;
+  line-height: 100%;
+  background: #0000004d;
+  margin-top: 2vw;
+  padding: 3vw;
+
+}
+
 .nav-link{
-  color: #cfc09f;
+  color: #ffefcc;
+  margin: 1vw 4vw;
 }
+
 .nav-link:hover{
   color: #ffefcc;
 }
+
 .navbar-toggler{
   color: #ffefcc;
 }
+
+
+/* ЗАГОЛОВОК */
+
 .txt{
 position:absolute;
     display: flex;
@@ -30,29 +78,7 @@ position:absolute;
     color: #fff;
     font-weight: 100;
     font: 5em sans-serif;
-    
-  /* color: #c40e7e;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(0, 0, 0),
-    0 0 82px rgb(0, 0, 0),
-    0 0 92px rgb(255, 0, 128),
-    0 0 102px rgb(255, 0, 128),
-    0 0 151px rgb(255, 0, 106); */
-
 }
-/* .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box div {
-  width: 100px;
-  height: 100px;
-} */
 
 
 .gold {
@@ -95,27 +121,25 @@ position:absolute;
 p{
      
     color: #a1a09e;
-    margin: 1vh;
+    /* margin: 1vw; */
     font-style: initial;
+    font-size: larger;
+    text-align: center;
     /* display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center; */
 
-
 }
 
- .container {
-    /* margin: 8vh;
-    display: flex;
-    flex-flow:column; */
-    /* align-items: center;
-    justify-content: center; */
-}
+/* КНОПКА */
+
+
 .but{
-    display: flex;
-  justify-content: center;
+  display: flex;
+  flex-flow: row;
   align-items: center;
+  justify-content: center;
   height: 50vh;
 }
  .neon-btn {
@@ -125,7 +149,7 @@ p{
   font-size: 16px;
   padding: 15px 50px;
   transition: 0.2s;
-  
+
 }
 
 .neon-btn--green {
@@ -139,6 +163,8 @@ p{
   box-shadow: 10px 10px 100px 6px #998f54;
 }
 
+/* РАЗДЕЛЫ */
+
 h1{
     color: #cfc09f;
     font-family: Times, serif;
@@ -147,7 +173,7 @@ h1{
     font-size: 3vw;
     letter-spacing: 1vw;
     line-height: 1;
-    margin: 10vh 0;
+    margin: 8vw 0;
     font-weight: 300;
 }
 .cont {
@@ -164,7 +190,7 @@ h1{
   border: 0;
   color: rgb(192, 163, 110);
   text-align: center;
-  font-size: 3vh;
+  font-size: 3vw;
   height: 3em;
   opacity: 0.5;
   -webkit-text-stroke-color: #ffe5ac;
@@ -300,6 +326,11 @@ h1{
 
   }
 }
+
+
+/* ВОПРОСЫ */
+
+
 .accordion-body{
 background-color:  #000;
 }
