@@ -1,176 +1,358 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta name="viewport" content="width=device-width,height=device-height,width=600,user-scalable=yes">
+    <meta
+        name="viewport"
+        content="width=device-width,height=device-height,width=600,user-scalable=yes">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
-    
-</head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin="crossorigin">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap"
+        rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    
+</head>
+<body>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 
 <nav class="navbar navbar-expand-lg col-md-15 mx-auto">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" aria-current="page" href="#sel1">Оргвзнос</a>
-        <a class="nav-link" href="#sel2">Место</a>
-        <a class="navbar-brand" href="#">
-        <img src=".vscode\jpg\lg.png" width="80" height="74"alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        </a>
-        <a class="nav-link" href="#sel2">Эволюция</a>
-        <a class="nav-link" href="#sel3">Контакты</a>
-      </div>
+    <div class="container-fluid">
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#sel1">Оргвзнос</a>
+                <a class="nav-link" href="#sel2">Место</a>
+                <a class="navbar-brand" href="#">
+                    <img
+                        src=".vscode\jpg\lg.png"
+                        width="30"
+                        height="24"
+                        alt="Logo"
+                        class="d-inline-block align-text-top">
+                </a>
+                <a class="nav-link" href="#sel2">Эволюция</a>
+                <a class="nav-link" href="#sel3">Контакты</a>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
 
-
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src=".vscode\jpg\DSC06838.jpg" class="d-block w-100" alt="...">
+<div
+    id="carouselExampleAutoplaying"
+    class="carousel slide"
+    data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src=".vscode\jpg\DSC06838.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src=".vscode\jpg\DSC06840.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src=".vscode\jpg\DSC06908.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src=".vscode\jpg\DSC06957.jpg" class="d-block w-100" alt="...">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src=".vscode\jpg\DSC06840.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src=".vscode\jpg\DSC06908.jpg" class="d-block w-100" alt="...">
-    </div>
-      <div class="carousel-item">
-      <img src=".vscode\jpg\DSC06957.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
-<!-- <div class="box"><Span class="txt">Алмазно Похуй<br>+<br>Оргия 10 баллов</Span></div> -->
-  
 
-
-<div class="gold">
-    <span data-double="A11 EVEN">A11 EVEN</span>
-    <span data-double="Представляют">Представляют</span>
-</div>
-<div class="container">
-    <div class="col-md-15">
-      <p style="font-family: monospace;"> <B>EvoParty</B> — это не просто вечеринки. Это ваш ключ к закрытому клубу эксклюзивных впечатлений и единомышленников. Мы постоянно развиваемся и вкладываем душу в каждую деталь, чтобы радовать вас и делать вашу жизнь насыщеннее, оставаясь для вас тем самым надежным проводником в мир незабываемых эмоций.  
-<br><b>Добро пожаловать в EvoParty</b> — место, где рождаются ваши лучшие вечера.
-      </p>
-      </div>
-</div>
-<br>
-    <div class="but">
-      <div class="col-md-15 mx-auto" >
-        <a href="https://forms.yandex.ru/u/682321c1068ff05d32c9d2fc/">
-          <button class="neon-btn neon-btn--green">Присоединиться</button>
-        </a>
-      </div>
+<div class="base">
+    <div class="mel">
+        <div class="melting-text-container">
+            <h1 class="melting-text">A11 EVEN</h1>
+        </div>
     </div>
+    <div class="gold">
+        <!-- <span data-double="A11 EVEN">A11 EVEN</span> -->
+        <span data-double="Представляют">Представляют</span>
+    </div>
+</div>
 
-<hr>
+<div class="col-md-15">
+    <p id="one" style="font-family: monospace;">
+        <b>EvoParty</b>
+        — это не просто вечеринки. Это ваш ключ к закрытому клубу эксклюзивных
+        впечатлений и единомышленников. Мы постоянно развиваемся и вкладываем душу в
+        каждую деталь, чтобы радовать вас и делать вашу жизнь насыщеннее, оставаясь для
+        вас тем самым надежным проводником в мир незабываемых эмоций.
+        <br>
+        <b>Добро пожаловать в EvoParty</b>
+        — место, где рождаются ваши лучшие вечера.
+    </p>
+</div>
+
+<div class="but">
+<div class="col-md-15 mx-auto">
+  <a href="https://forms.yandex.ru/u/682321c1068ff05d32c9d2fc/">
+    <button class="neon-btn neon-btn--green">Присоединиться</button>
+  </a>
+</div>
+</div>
 
 <div class="cont" id="sel1">
-  <hr class="hr-text" data-content="О НАС">
+    <hr class="hr-text2" data-content="О НАС">
 </div>
 
 <div class="container">
   <div class="row">
-<p style="font-family: monospace;">
-  Наверное, каждый мечтает о друге, который проводил бы тебя на самые разные закрытые вечеринки — будь то в коттедже, на природе или даже на арендованной яхте. Где тебя ждут интересные разработки, оригинальный бар, кальяны, разнообразные зоны и активности, новые знакомства с интересными людьми и безопасная атмосфера. В общем, как ты уже догадался, речь идет о нашем проекте: EvoParty. Наша мечта — сделать все, чтобы продолжать создавать для тебя эту атмосферу, развиваться и радовать тебя, став для тебя именно таким другом.
-</p>
-    </div>
-    </div>
-
-
-<div class="cont" id="sel2">
-  <hr class="hr-text" data-content="Эволюция">
-</div>
-
-
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <img src=".vscode\jpg\DSC06838.jpg" class="img-thumbnail" alt="...">
-    </div>
-    <div class="col">
-      <img src=".vscode\jpg\DSC06908.jpg" class="img-thumbnail" alt="...">
-    </div>
-    <div class="col">
-      <img src=".vscode\jpg\DSC06957.jpg" class="img-thumbnail" alt="...">
-    </div>
+    <p style="font-family: monospace;">
+        Наверное, каждый мечтает о друге, который проводил бы тебя на самые разные
+        закрытые вечеринки — будь то в коттедже, на природе или даже на арендованной
+        яхте. Где тебя ждут интересные разработки, оригинальный бар, кальяны,
+        разнообразные зоны и активности, новые знакомства с интересными людьми и
+        безопасная атмосфера. В общем, как ты уже догадался, речь идет о нашем проекте:
+        EvoParty. Наша мечта — сделать все, чтобы продолжать создавать для тебя эту
+        атмосферу, развиваться и радовать тебя, став для тебя именно таким другом.
+    </p>
   </div>
 </div>
 
+<div class="cont" id="sel2">
+    <hr class="hr-text2" data-content="Эволюция">
+</div>
 
 
 
 
 
+<div class="timeline">
+    <div class="cards-container">
+        <div class="hover-card" tabindex="0">
+            <div class="card-connector"></div>
+            <div class="image-container">
+                <img src=".vscode\jpg\DSC06838.jpg" alt="Горы" class="main-image">
+            </div>
+            <div class="hidden-panel top-panel">
+                <h3 class="panel-title">Горный пейзаж</h3>
+                <p class="panel-text">Снято в Швейцарских Альпах весной 2022 года. Великолепные виды на заснеженные вершины.</p>
+            </div>
+            <div class="hidden-panel bottom-panel">
+                <h3 class="panel-title">Технические данные</h3>
+                <p class="panel-text">Canon EOS R5, f/8, 1/250s, ISO 100. Фокусное расстояние 24mm.</p>
+            </div>
+        </div>
+        
+        <div class="hover-card" tabindex="0">
+            <div class="card-connector"></div>
+            <div class="image-container">
+                <img src=".vscode\jpg\DSC06908.jpg" alt="Пляж" class="main-image">
+            </div>
+            <div class="hidden-panel top-panel">
+                <h3 class="panel-title">Морской берег</h3>
+                <p class="panel-text">Золотые пески Средиземноморья. Идеальное место для отдыха и вдохновения.</p>
+            </div>
+            <div class="hidden-panel bottom-panel">
+                <h3 class="panel-title">Технические данные</h3>
+                <p class="panel-text">Sony A7III, f/5.6, 1/500s, ISO 200. Поляризационный фильтр.</p>
+            </div>
+        </div>
+        
+        <div class="hover-card" tabindex="0">
+            <div class="card-connector"></div>
+            <div class="image-container">
+                <img src=".vscode\jpg\DSC06957.jpg" alt="Лес" class="main-image">
+            </div>
+            <div class="hidden-panel top-panel">
+                <h3 class="panel-title">Лесная тропа</h3>
+                <p class="panel-text">Тайные тропы баварского леса. Волшебная атмосфера древних деревьев.</p>
+            </div>
+            <div class="hidden-panel bottom-panel">
+                <h3 class="panel-title">Технические данные</h3>
+                <p class="panel-text">Nikon D850, f/4, 1/125s, ISO 400. Естественное освещение.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="cont" id="sel3">
-  <hr class="hr-text1" data-content="Часто задаваемые вопросы">
+
+
+<!-- <div class="cards-container">
+
+  <div class="hover-card" tabindex="0">
+      <div class="hidden-panel top-panel">
+          <h3 class="panel-title">Горный пейзаж</h3>
+          <p class="panel-text">Снято в Швейцарских Альпах весной 2022 года</p>
+      </div>
+      <img src=".vscode\jpg\DSC06838.jpg" alt="Горы" class="main-image">
+      <div class="hidden-panel bottom-panel">
+          <h3 class="panel-title">Технические данные</h3>
+          <p class="panel-text">Canon EOS R5, f/8, 1/250s, ISO 100</p>
+      </div>
+  </div>
+  
+
+  <div class="hover-card" tabindex="0">
+      <div class="hidden-panel top-panel">
+          <h3 class="panel-title">Морской берег</h3>
+          <p class="panel-text">Побережье Средиземного моря в Испании</p>
+      </div>
+      <img src=".vscode\jpg\DSC06908.jpg" alt="Пляж" class="main-image">
+      <div class="hidden-panel bottom-panel">
+          <h3 class="panel-title">Технические данные</h3>
+          <p class="panel-text">Sony A7III, f/5.6, 1/500s, ISO 200</p>
+      </div>
+  </div>
+  
+
+  <div class="hover-card" tabindex="0">
+      <div class="hidden-panel top-panel">
+          <h3 class="panel-title">Лесная тропа</h3>
+          <p class="panel-text">Заповедник в Баварии, Германия</p>
+      </div>
+      <img src=".vscode\jpg\DSC06957.jpg" alt="Лес" class="main-image">
+      <div class="hidden-panel bottom-panel">
+          <h3 class="panel-title">Технические данные</h3>
+          <p class="panel-text">Nikon D850, f/4, 1/125s, ISO 400</p>
+      </div>
+  </div>
+</div> -->
+
+<!-- <div class="container text-center">
+  <div class="row">
+    <div class="col">
+        <img src=".vscode\jpg\DSC06838.jpg" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col">
+        <img src=".vscode\jpg\DSC06908.jpg" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col">
+        <img src=".vscode\jpg\DSC06957.jpg" class="img-thumbnail" alt="...">
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="cont" id="sel3">
+    <hr class="hr-text1" data-content="Часто задаваемые вопросы">
 </div>
 
 <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne">
+          Accordion Item #1
       </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+  </h2>
+  <div
+      id="collapseOne"
+      class="accordion-collapse collapse show"
+      data-bs-parent="#accordionExample">
       <div class="accordion-body" style="font-family: monospace;">
-        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>This is the first item’s accordion body.</strong>
+          It is shown by default, until the collapse plugin adds the appropriate classes
+          that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of
+          this with custom CSS or overriding our default variables. It’s also worth noting
+          that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body" style="font-family: monospace;">
-        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body" style="font-family: monospace;">
-        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
   </div>
 </div>
+<div class="accordion-item">
+    <h2 class="accordion-header">
+        <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo">
+            Accordion Item #2
+        </button>
+    </h2>
+    <div
+        id="collapseTwo"
+        class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body" style="font-family: monospace;">
+            <strong>This is the second item’s accordion body.</strong>
+            It is hidden by default, until the collapse plugin adds the appropriate classes
+            that we use to style each element. These classes control the overall appearance,
+            as well as the showing and hiding via CSS transitions. You can modify any of
+            this with custom CSS or overriding our default variables. It’s also worth noting
+            that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+    </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree">
+          Accordion Item #3
+      </button>
+  </h2>
+  <div
+      id="collapseThree"
+      class="accordion-collapse collapse"
+      data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="font-family: monospace;">
+          <strong>This is the third item’s accordion body.</strong>
+          It is hidden by default, until the collapse plugin adds the appropriate classes
+          that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of
+          this with custom CSS or overriding our default variables. It’s also worth noting
+          that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+  </div>
+</div>
+</div> -->
 
 <div class="cont" id="sel4">
-  <hr class="hr-text2" data-content="Контакты">
+    <hr class="hr-text2" data-content="Контакты">
 </div>
 
 </body>
