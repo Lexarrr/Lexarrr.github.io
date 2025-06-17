@@ -208,8 +208,17 @@ position:absolute;
   text-shadow: none;
 }
 
+@media (max-width: 768px) {
 
+.gol span+span {
+  font-size: 5vw;
+}
+}
+@media (max-width: 480px) {
 
+  .gol span+span {
+    font-size: 5vw;
+  } }
 
 
 .gold {
