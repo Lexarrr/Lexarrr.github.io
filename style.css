@@ -562,61 +562,7 @@ h1{
   color: #000;
 }
 
-/* Адаптация для планшетов */
-/* @media (max-width: 1024px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
 
-  .hero-title {
-    font-size: 2.8rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.3rem;
-  }
-} */
-
-/* Адаптация для мобильных */
-/* @media (max-width: 768px) {
-  .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-  }
-
-  .hero-content {
-    padding: 30px 20px;
-  }
-
-  .hero-title {
-    font-size: 2.2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.1rem;
-  }
-
-  .hero-btn {
-    padding: 12px 25px;
-    font-size: 0.9rem;
-  }
-} */
-/* 
-@media (max-width: 480px) {
-  .photo-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-  }
-
-  .hero-title {
-    font-size: 1.8rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-} */
 
 
 
