@@ -182,7 +182,7 @@ position:absolute;
   font-family: Times, serif;
   position: relative;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 2 rem;
   letter-spacing: 1vw;
   line-height: 1;
   font-weight: 300;
@@ -211,7 +211,8 @@ position:absolute;
 @media (max-width: 768px) {
 
 .gol span {
-  font-size: 2 rem;}
+  font-size: 2 rem;
+}
 .gol span+span {
   font-size: 15vw;
 }
