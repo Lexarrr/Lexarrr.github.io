@@ -1167,3 +1167,15 @@ footer {
     justify-content: center;
   }
 }
+
+
+
+
+
+.foot-log{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: 1vw;
+  margin-left: 46vw; */
+}
