@@ -211,13 +211,13 @@ position:absolute;
 @media (max-width: 768px) {
 
 .gol span+span {
-  font-size: 5vw;
+  font-size: 10vw;
 }
 }
 @media (max-width: 480px) {
 
   .gol span+span {
-    font-size: 5vw;
+    font-size: 10vw;
   } }
 
 
