@@ -210,14 +210,14 @@ position:absolute;
 
 @media (max-width: 768px) {
 
-.gol span+span {
-  font-size: 10vw;
+.gol span {
+  font-size: 6vw;
 }
 }
 @media (max-width: 480px) {
 
-  .gol span+span {
-    font-size: 10vw;
+  .gol span {
+    font-size: 6vw;
   } }
 
 
