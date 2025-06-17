@@ -373,7 +373,19 @@ h1{
   margin: 5vh auto;
   
 }
+@media (max-width: 768px) {
 
+.h1{font-size: 10rem;}
+
+@media (max-width: 480px) {
+
+  .gol span {
+    font-size: 15vw;
+  }
+
+  .gol span+span {
+    font-size: 15vw;
+  } }
 
 .hr-text2 {
   line-height: 1em;
