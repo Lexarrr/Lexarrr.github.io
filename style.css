@@ -215,19 +215,19 @@ position:absolute;
 @media (max-width: 768px) {
 
 .gol span {
-  font-size: 2rem;
+  font-size: 7vw;
 }
 .gol span+span {
-  font-size: 15vw;
+  font-size: 7vw;
 }
 }
 @media (max-width: 480px) {
 
   .gol span {
-    font-size: 15vw;
+    font-size: 7vw;
   } 
     .gol span+span {
-      font-size: 15vw; }
+      font-size: 7vw; }
     }
 
 
@@ -379,12 +379,12 @@ h1{
 }
 @media (max-width: 768px) {
 
-.hr-text2{font-size: 10em;}}
+.hr-text2{font-size: 7vw;}}
 
 @media (max-width: 480px) {
 
   .hr-text2 {
-      font-size: 10em;
+      font-size: 7vw;
 
     } }
 
